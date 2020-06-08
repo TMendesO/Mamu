@@ -1,0 +1,115 @@
+
+
+.clients-socios {
+    margin-top: 4.2rem;
+    padding-top: 7.2rem;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.clients-socios::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.clients-socios .socios {
+    margin: 0 10%;
+}
+
+.clients-socios .socios p {
+    font-family: "lora-regular", serif;
+     text-align: Justify !important; 
+    font-size: 3rem;
+    line-height: 1.8;
+    color: #555555;
+    margin-bottom: 6rem;
+}
+
+.clients-socios .socios__slide {
+    position: relative !important;
+    padding: 0 0 3rem 0;
+    height: auto;
+    width: -20%;
+}
+
+.socios--right{
+   float:right !important;
+    width:auto;
+    height: auto;
+    margin-right: auto;
+}
+
+.socios--left{
+    float: left !important;
+     width:auto;
+    height: auto;
+    margin-left: auto;
+}
+
+.clients-socios .socios__avatar {
+    height: 8.4rem;
+    width: 8.4rem;
+    border-radius: 50%;
+    margin: 0 auto 1.2rem auto;
+}
+
+.clients-socios .socios__name, 
+.clients-socios .socios__pos {
+    display: block;
+}
+
+.clients-socios .socios__name {
+    font-family: "montserrat-semibold", sans-serif;
+    color: #000000;
+}
+
+.clients-socios .socios__pos {
+    font-family: "montserrat-light", sans-serif;
+    font-size: 1.4rem;
+}
+
+.clients-socios .socios .slick-arrow {
+    position: relative;
+    top: 7.2rem;
+    width: 66px;
+    height: 66px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 22px 15px;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    z-index: 2;
+}
+
+.clients-socios .socios .slick-prev {
+    left: -130px;
+    background-image: url("../images/left-arrow.png");
+}
+
+.clients-socios .socios .slick-next {
+    right: -130px;
+    background-image: url("../images/right-arrow.png");
+}
+.clients-socios .socios .slick-dots {
+    margin-top: -0.6px;
+}
